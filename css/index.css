@@ -1,0 +1,186 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main{
+    height: 657px;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.082);
+}
+
+.wrapper{
+    width: 100%;
+    height:657px ;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.cardmain{
+    width: 24%;
+    height: 550px;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.nav{
+    margin-top: 30px;
+    height: 30px;
+    /* background-color:blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+.welcome,.login{
+    margin: 0px 10px;
+}
+
+.con{
+    width: 100%;
+    height: 440px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.logo{
+   width: 100%;
+   height: 55px; 
+   /* background-color: yellow; */
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+
+}
+
+.icon{
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    /* background-color: rgb(175, 6, 152); */
+}
+.icon img{
+    /* margin-top: 0px; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(175, 6, 152);
+    border: 3px solid rgb(3, 0, 3);
+}
+
+.welcome1{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.user{
+    margin-left: 20px;
+    height: 50px;
+    width: 90%;
+    /* background-color: violet; */
+    margin-top: 30px;
+    border-bottom:2px solid tomato;
+    font-weight: bold;
+}
+
+.user input{
+    margin-top: 5px;
+    width: 250px;
+    height: 22px;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(27, 26, 105);
+}
+::placeholder{
+    color: orange;
+}
+
+.password{
+    margin-left: 20px;
+    height: 50px;
+    width: 90%;
+    /* background-color: violet; */
+    border-bottom:2px solid tomato;
+    font-weight: bold; 
+    margin-top: 25px; 
+}
+
+.password input{
+    margin-top: 5px;
+    width: 250px;
+    height: 22px;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(27, 26, 105);
+}
+
+.box{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    margin: 0px 10px;
+    font-weight: bold;
+    color:gold;
+}
+
+.submit{
+    width: 100%;
+    height: 40px;
+    /* background-color: rgb(184, 16, 100); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub{
+    width: 150px;
+    height: 34px;
+    /* background-color: khaki; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub input{
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: mediumblue;
+    background-color: rgb(36, 253, 242);
+}
+
+.account{
+    width: 100%;
+    height: 30px;
+    /* background-color: aqua; */
+    margin-top: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.word{
+margin: 0px 3px;
+font-weight: bold;
+}
+
+.account a{
+    color: red;
+}
